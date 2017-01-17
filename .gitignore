@@ -1,47 +1,26 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+.idea
 .DS_Store
-.AppleDouble
-.LSOverride
+morgan.log
 
-# Thumbnails
-._*
+# Built #
+/__build__/
+/__server_build__/
+/node_modules/
+/typings/
+/tsd_typings/
+/dist/
+/compiled/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Node #
+npm-debug.log
+/npm-debug.log.*
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Webpack #
+webpack.records.json
+
+# Angular #
+*.ngfactory.ts
+*.css.shim.ts
+*.ngsummary.json
+*.metadata.json
+*.shim.ngstyle.ts
